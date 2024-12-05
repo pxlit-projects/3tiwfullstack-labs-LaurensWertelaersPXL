@@ -26,6 +26,7 @@
 		<module>department-service</module>
         <module>discovery-service</module>
 		<module>notification-service</module>
+		<module>config-service</module>
 	</modules>
 	<scm>
 		<connection/>
@@ -49,10 +50,7 @@
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
